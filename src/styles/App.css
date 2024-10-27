@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;    
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+    /* max-width: 900px; */
+    background-color: #ffffff;
+}
+
+.app-header {
+    background-color: #4472C4;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.main-container {
+    display: flex;
+    justify-content:space-around;
+}
+
+.get-weather-btn {
+    background-color: #4472C4;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+}
+
+.get-weather-btn:hover {
+    background-color: #365A8B;
+}
+
+.app-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.left-column {
+    height: 93vh;
+    width: 10%;
+    border-right: 2px solid #000;
+    padding-right: 10px;
+    
+}
+
+.weather-section {
+    width: 80%;
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-column ul li {
+    
+    padding: 10px;
+    border:  1px solid #000;
+    cursor: pointer;
+}
+.city{
+    background-color: #4472C4;
+    color: #ffffff;
+}
+
+.weather-table tr td.highlighted {
+    background-color: yellow;
+}
+
+.weather-table-container {
+    margin-top: 20px;
+}
+
+.weather-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.weather-table th,
+.weather-table td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.no-data {
+    text-align: center;
+    color: #555;
+    padding: 20px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 70%;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4472C4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #365A8B;
+}
+
+.search-bar {
+    
+    align-items: center;
+    margin-bottom: 10px;
+}
